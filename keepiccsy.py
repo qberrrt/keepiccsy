@@ -17,6 +17,7 @@ class Piccsy():
             self.login()
         else:
     # *** Do something if username and password are empty ***
+    # Although it will be caught at login, saves resources.
             pass
             
     def login(self):
